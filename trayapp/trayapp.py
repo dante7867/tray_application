@@ -7,10 +7,6 @@ from PyQt6.QtWidgets import *
 from popup_example import show_popup_window
 
 
-def dummy():
-    print("dummy")
-
-
 class TrayApp:
     """A class representing tray application"""
 
@@ -66,7 +62,7 @@ class TrayApp:
         
         documents_path = "Documents"
         self.create_menu_action(self.menu, "Open Documents", lambda: subprocess.Popen(f'explorer {documents_path}'), "art/icons/books.png") 
-        self.create_menu_action(self.menu, "Randomize wallpaper", lambda: dummy()) 
+        self.create_menu_action(self.menu, "Randomize wallpaper", lambda: os.system("python windows-wallpaper-randomizer/randomize_wallpaper.py -r")) 
 
     
     def create_menu_action(self, menu, name, function, icon_path = None):
