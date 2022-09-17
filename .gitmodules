@@ -1,3 +1,3 @@
-[submodule "windows-wallpaper-randomizer"]
+[submodule "trayapp/windows-wallpaper-randomizer"]
 	path = trayapp/windows-wallpaper-randomizer
 	url = https://github.com/dante7867/windows-wallpaper-randomizer
