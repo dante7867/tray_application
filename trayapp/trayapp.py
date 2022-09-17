@@ -18,7 +18,7 @@ class TrayApp:
 
     def __init__(self):
         self.app.setQuitOnLastWindowClosed(False)
-        self.tray.setIcon(QIcon("art/icons/pink-pig.png")) #main icon
+        self.tray.setIcon(QIcon("art/icons/pink-pig.ico")) #main icon
         self.tray.setVisible(True)
        
         # social media
