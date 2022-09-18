@@ -5,7 +5,7 @@ _A simple example of a tray application built using PyQt6 for users who want to 
 <img src="https://user-images.githubusercontent.com/31797203/190860873-1649aa45-85b0-4131-9104-3304e75cc7b0.png"/>
 
 ## RUNNING APPLICATIONS
-Sometimes there is no need to build an .exe. Just run trayapp.py from the ./trayapp path.
+Sometimes there is no need to build an .exe. Just run trayapp.py from the ./trayapp/ directory.
 
 ## BUILD
 Trayapp was built using Python 3.10.0.
